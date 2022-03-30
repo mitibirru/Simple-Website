@@ -1,0 +1,89 @@
+/* presets */
+* {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style-type: none;
+}
+
+a:link {
+	text-decoration: none;
+	color: black;
+	font-weight: 500;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: red;
+	border-bottom: 1px solid red;
+}
+
+a:active {
+	color: red;
+}
+
+/* Header */
+header {
+	margin: 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.nav > li {
+	margin-right: 2rem;
+	font-size: 1rem;
+}
+
+/* Main image */
+
+.main {
+	margin: 1rem 7.5rem;
+}
+
+/* Course Section */
+
+.parent {
+	display: flex;
+}
+.child {
+	text-align: center;
+	margin: 3rem;
+	padding: 1rem;
+}
+
+.child:hover {
+	background-color: lightblue;
+	border-radius: 3rem;
+}
+
+.child > img,
+.child > h2,
+.child > p {
+	margin: 1rem;
+}
+
+/* Footer */
+
+footer {
+	background-color: black;
+	color: white;
+	height: 7rem;
+	text-align: center;
+	padding: 2rem 0rem;
+}
+
+h2 > span {
+	font-size: 0.3rem;
+}
