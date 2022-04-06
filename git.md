@@ -9,3 +9,6 @@
 ## rest of the users
 
 -   git init
+-   git add .
+-   git remote add <branch name> gitLink
+-   git commit
